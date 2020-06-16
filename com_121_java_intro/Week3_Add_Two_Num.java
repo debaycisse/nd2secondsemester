@@ -4,6 +4,11 @@
  */
 
 import java.util.Scanner;
+/*
+ * java.util is a package. One of its constituents classes is
+ * Scanner class.
+ * As its name suggests, it is used to scan user's input and stores it. 
+ */
 
 public class Week3_Add_Two_Num
 {
@@ -25,9 +30,11 @@ public class Week3_Add_Two_Num
 
 		// Declaration of non-primitive (reference) variable of type Scanner
 		Scanner input = new Scanner(System.in);
-		// Scanner is data type of reference type, so input is a variable of datatype Scanner
-		// Scanner() method is used to scan whatever object that is given to it's parameter
-		// System.in - is an object that hooks up system's input, such as keyboard.
+		/* Scanner is a data type of reference type, so input is a variable of datatype Scanner
+		 * Scanner() method is used to scan whatever object that is given to it's parameter, since 
+		 * it's parameter is actually hooking up to the input stream of host where the program runs
+		 * System.in - is an object that hooks up a computer or system's input, such as keyboard.
+		 */
 
 
 		// Accept values or data from user(s)

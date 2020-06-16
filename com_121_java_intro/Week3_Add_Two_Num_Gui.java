@@ -22,7 +22,7 @@ public class Week3_Add_Two_Num_Gui
 		input = JOptionPane.showInputDialog(null, "Enter first integer number", "Adding integers", 
 				JOptionPane.QUESTION_MESSAGE);
 
-		// Convert value of input into integer & store it in firstNumber variable
+		// Convert value of input into integer & store it in firstNumber variable, since JOptionPane returns string data type
 		firstNumber = Integer.parseInt(input);
 
 
