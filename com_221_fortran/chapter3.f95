@@ -2,5 +2,5 @@
 ! the name of its author
 program chapter3
       write (*,*) "Hello World!"
-      write (*,*) "Azeez"
+      write (*,*) "Author: Azeez"
 end program chapter3

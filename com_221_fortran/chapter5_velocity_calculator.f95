@@ -1,6 +1,6 @@
 ! The below is an example program that calculates the velocity based on
 ! acceleration and time. The program declares the appropriate variables
-! and calculate the velocity
+! and calculates the velocity
 
 program findvelocity
       ! program to calculate the velocity from

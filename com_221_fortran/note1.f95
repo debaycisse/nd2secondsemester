@@ -1,7 +1,7 @@
 ! The below program is not solving any problem per se, it is only used
 ! to show how the following are declared, each declaration is explained.
 
-program kenote_taking
+program keynote_taking
       
       ! to turn off implicit program compiling mode
       implicit none
@@ -14,7 +14,7 @@ program kenote_taking
       integer :: radius, diameter
 
 
-      ! to declare variable with value initialization
+      ! to declare variable with value - initialization
       integer :: width = 150, height = 100
       real :: length = 123.5, distance = 413.761
 
