@@ -3,7 +3,8 @@
  * Circle class which is in the same directory - Week5, as this very file.
  */
 
-package Week5;
+
+import circle.Circle;
 
 import javax.swing.JOptionPane;
 

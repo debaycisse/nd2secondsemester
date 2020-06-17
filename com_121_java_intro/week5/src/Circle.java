@@ -3,6 +3,8 @@
  * Create a Circle Object and Calculate the Area of the Circle
  */
 
+package circle;
+
 public class Circle
 {
 	// Create Instance Variables
