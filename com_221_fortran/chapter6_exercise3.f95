@@ -1,0 +1,31 @@
+! The below is an example program that calculates the velocity based on
+! acceleration and time. The program declares the appropriate variables
+! and calculates the velocity
+
+program findvelocity
+      ! program to calculate the velocity from
+      ! the acceleration and time.
+
+
+      ! Declare variables
+      real :: velocity 
+      real :: acceleration
+      real :: time
+
+
+      ! Display initial header
+      write(*,*) "Velocity Calculator"
+      write(*,*)
+
+      ! Obtain the acceleration and time from user
+      write(*,*) "Enter the time"
+      read(*,*) time
+
+      write(*,*) "Enter the acceleration"
+      read(*,*) acceleration
+
+      ! Calculate the velocity
+      velocity = acceleration * time
+      write(*,*) "Velocity of time - ", time, " and acceleration - ",  &
+      acceleration, " is equal to ", velocity
+end program findvelocity      
