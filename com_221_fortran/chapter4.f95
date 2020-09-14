@@ -8,11 +8,11 @@
 program example1
       
       implicit none
-      integer :: radius, diameter                       ! integers variables
-      integer :: height = 100, width = 150              ! integer variables
-      real :: area, parameter                           ! real variables that are initialized
-      real :: length = 123.5, distance = 413.761        ! real variables that are initialized
-      real, parameter :: pi = 3.14159                   ! real constant that is initialized
+      integer :: radius, diameter                       ! integers variables that are only declared
+      integer :: height = 100, width = 150              ! integer variables that are declared and initialized
+      real :: area, parameter                           ! real variables that are only declared
+      real :: length = 123.5, distance = 413.761        ! real variables that are declared and initialized
+      real, parameter :: pi = 3.14159                   ! real constant that is declared and initialized
       character(11) :: msg = "Hello World!"             ! string variable whose length must not exceed 11
       character(5) :: my_name = "Azeez"                 ! string variable whose length must not exceed 5
 
