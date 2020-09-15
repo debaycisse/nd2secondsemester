@@ -10,7 +10,8 @@
 public class practice1 {
 	
 	public static void main (String[] args) {
-		System.out.println("Hello Me!");
+		System.out.print("My age in days are ");
+		System.out.println(32 * 365 + " days");
 		
 	}
 }
