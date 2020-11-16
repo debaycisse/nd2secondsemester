@@ -19,7 +19,7 @@ public class Week4_Average
 		String result; // output generating string
 
 
-		// Accept inteher numbers from he user
+		// Accept integer numbers from the user
 		input = JOptionPane.showInputDialog( null, "Enter first number: " );
 		firstNumber = Integer.parseInt( input ); // wrap input to integer
 		

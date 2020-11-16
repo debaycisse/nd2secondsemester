@@ -23,7 +23,7 @@ public class Week2    // using Week2 as the name of the main class means the nam
 
 		JOptionPane.showMessageDialog(null, message_to_display);
 
-		// gets input from user via dialog graphical window
+		// gets input from user via dialog graphical window and save the input into username string variable
 		username = JOptionPane.showInputDialog(null, "Enter your name, please: ");
 
 		// Say hello to the user
