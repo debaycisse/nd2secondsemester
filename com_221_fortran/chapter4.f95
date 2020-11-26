@@ -14,7 +14,7 @@ program example1
       real :: length = 123.5, distance = 413.761        ! real variables that are declared and initialized
       real, parameter :: pi = 3.14159                   ! real constant that is declared and initialized
       character(11) :: msg = "Hello World!"             ! string variable whose length must not exceed 11
-      character(5) :: my_name = "Azeez"                 ! string variable whose length must not exceed 5
+      character(5) :: my_name = "Azeez"                 ! another string variable whose length must not exceed 5
 
       ! Write an output
       write (*,*) "Greeting: ", msg
